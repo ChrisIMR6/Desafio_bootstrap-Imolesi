@@ -1,8 +1,6 @@
 /* general*/
 
-/* NOTA IMPORTANTE: Al haber seteado muchas cosas en "general" aún no he creado una media query para desktop,
- se podría decir que todo lo que no sea mobile y tablet es considerado de escritorio(por el momento)
- También han habido problemas con el nav del header, esto lo voy a solucionar pronto*/
+
 body{
     color: antiquewhite;
     background-color: black;
@@ -108,6 +106,10 @@ li {
           float: left;
           position: relative;
          }
+
+.navbar-light .navbar-nav .nav-link{
+  color: aliceblue;
+}
 
 /* Desktop (animación) */
 
